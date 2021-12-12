@@ -23,7 +23,7 @@
               <a class="nav-link pr-5" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link pr-5" href="#">Features</a>
+              <a class="nav-link pr-5 nav-link scrollto" href="#collections">Collections</a>
             </li>
             <li class="nav-item">
               <a class="nav-link pr-5" href="#">Pricing</a>
@@ -33,12 +33,30 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link pr-5" href="#">Contact</a>
-              </li>
+            </li>
+            <li class="nav-item">
+                <a href="./cart.html">
+                    <i class="fas fa-shopping-cart">
+                        <span class="badge badge-notify my-cart-badge">
+                            <p>10</p></span>
+                    </i>
+                </a>
+            </li>
           </ul>
         </div>
       </nav>
-      <!-- End of Navbar-->
       
+      <!-- End of Navbar-->
+      <div class="modal" id="myModel">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h3 class="text-center">SignUp</h3>
+                  </div>
+              </div>
+          </div>
+
+      </div>
       <!-- Start Carousel -->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
         <ol class="carousel-indicators">
@@ -148,7 +166,7 @@
       </section>
 
 
-      <section class="collection">
+      <section class="collection" id="collections">
           <div class="container py-5">
             <h1 class="text-center">New Collections</h1>
             <div class="row py-5">
